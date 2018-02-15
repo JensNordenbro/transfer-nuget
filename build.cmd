@@ -1,7 +1,7 @@
 dotnet restore
 dotnet build /p:SourceLinkCreate=true /v:n
+dotnet pack
 
-
-#full framework
-#msbuild /t:restore
-#msbuild /t:rebuild /p:SourceLinkCreate=true /v:n
+rem full framework
+rem msbuild /t:restore
+rem msbuild /t:rebuild /p:SourceLinkCreate=true /v:n
